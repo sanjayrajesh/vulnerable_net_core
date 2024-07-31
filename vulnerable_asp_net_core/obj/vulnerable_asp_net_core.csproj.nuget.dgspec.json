@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/maven/vulnerable_net_core/vulnerable_asp_net_core/vulnerable_asp_net_core.csproj": {}
+  },
+  "projects": {
+    "/home/maven/vulnerable_net_core/vulnerable_asp_net_core/vulnerable_asp_net_core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/maven/vulnerable_net_core/vulnerable_asp_net_core/vulnerable_asp_net_core.csproj",
+        "projectName": "vulnerable_asp_net_core",
+        "projectPath": "/home/maven/vulnerable_net_core/vulnerable_asp_net_core/vulnerable_asp_net_core.csproj",
+        "packagesPath": "/home/maven/.nuget/packages/",
+        "outputPath": "/home/maven/vulnerable_net_core/vulnerable_asp_net_core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/maven/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[7.0.0-beta1, )"
+            },
+            "Microsoft.Data.SQLite": {
+              "target": "Package",
+              "version": "[2.2.1, )"
+            },
+            "Microsoft.IdentityModel.Protocols": {
+              "target": "Package",
+              "version": "[6.10.2, )"
+            },
+            "Microsoft.IdentityModel.Protocols.OpenIdConnect": {
+              "target": "Package",
+              "version": "[7.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.109.2, )"
+            },
+            "System.Text.Encodings.Web": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.32, 3.1.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.303/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
